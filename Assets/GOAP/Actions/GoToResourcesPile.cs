@@ -8,7 +8,7 @@ namespace GOAP.Actions
 
         public override bool PrePerform()
         {
-            return true;
+            return !beliefs.HasState("resources");
         }
 
         public override bool PostPerform()

@@ -120,7 +120,7 @@ MonoBehaviour:
   distance: 0.5
   preConditions: []
   afterEffects:
-  - key: resources
+  - key: getResources
     value: 0
   gagent: {fileID: 0}
   agent: {fileID: 0}
@@ -174,6 +174,8 @@ MonoBehaviour:
   distance: 0.5
   preConditions:
   - key: resources
+    value: 0
+  - key: doorDamaged
     value: 0
   - key: isAtDoor
     value: 0

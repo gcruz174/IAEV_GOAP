@@ -22,7 +22,7 @@ namespace GOAP
             foreach (var post in posts)
                 DefensePosts.Add(post);
 
-            Time.timeScale = 5;
+            Time.timeScale = 1;
         }
 
         public static WorldStates GetWorld()
