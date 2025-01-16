@@ -129,7 +129,7 @@ MonoBehaviour:
   cost: 1
   target: {fileID: 0}
   targetTag: Door
-  duration: 0
+  duration: 0.1
   distance: 1
   preConditions: []
   afterEffects:

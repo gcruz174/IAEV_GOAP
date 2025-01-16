@@ -3,29 +3,27 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    [SerializeField]
-    private HealthComponent target;
-
+    private HealthComponent _target;
     private Slider _slider;
 
     private void Update()
     {
         // project target to screen space and set position of health bar with offset
-        if (target == null)
+        if (_target == null)
         {
             Destroy(gameObject);
             return;
         }
         
-        var screenPos = Camera.main.WorldToScreenPoint(target.transform.position);
+        var screenPos = Camera.main.WorldToScreenPoint(_target.transform.position);
         transform.position = screenPos + new Vector3(0, 50, 0);
-        _slider.value = target.Health;
+        _slider.value = _target.Health;
     }
 
     public void SetTarget(HealthComponent target)
     {
         _slider = GetComponent<Slider>();
-        this.target = target;
+        _target = target;
         _slider.maxValue = target.Health;
     }
 }

@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61cd1d87-9bc1-4fa6-b709-fbec688c8f82" name="Changes" comment="" />
+    <list default="true" id="61cd1d87-9bc1-4fa6-b709-fbec688c8f82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GOAP_base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GOAP_base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CastleSiege.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CastleSiege.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CastleSiege/Prefabs/Archer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CastleSiege/Prefabs/Archer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CastleSiege/Prefabs/Repairman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CastleSiege/Prefabs/Repairman.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CastleSiege/Prefabs/Tank.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CastleSiege/Prefabs/Tank.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GOAP/Actions/DefendSelf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GOAP/Actions/DefendSelf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GOAP/Actions/DefendTower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GOAP/Actions/DefendTower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GOAP/Actions/GoToDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GOAP/Actions/GoToDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -29,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/GOAP/Agents/Repairman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GOAP/Agents/Tank.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GOAP/GAgentVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourcesIndicatorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GOAP_doctor/Assets/GAgentVisual.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -40,26 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\gines\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\gines\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\gines\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\gines\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\gines\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\gines\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="G:\UnityEditor\6000.0.24f1\Editor\Unity.exe" />
@@ -87,10 +105,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="29280">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11148">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="29280" />
+      <option name="pid" value="11148" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -113,6 +131,7 @@
       <workItem from="1736869260801" duration="3342000" />
       <workItem from="1736889725568" duration="6257000" />
       <workItem from="1736947659974" duration="19297000" />
+      <workItem from="1737035810038" duration="3543000" />
     </task>
     <servers />
   </component>
@@ -123,5 +142,52 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/GOAP/Actions/GoToDoor.cs</url>
+          <line>15</line>
+          <properties documentPath="G:\Clase\MUDV\IAEV\GOAP_base\Assets\GOAP\Actions\GoToDoor.cs" initialLine="15" containingFunctionPresentation="Method 'PostPerform'">
+            <startOffsets>
+              <option value="386" />
+            </startOffsets>
+            <endOffsets>
+              <option value="412" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="CurrentAction is GOAP.Actions.GoToDoor" language="C#" />
+          <url>file://$PROJECT_DIR$/Assets/GOAP/GAgent.cs</url>
+          <line>61</line>
+          <properties documentPath="G:\Clase\MUDV\IAEV\GOAP_base\Assets\GOAP\GAgent.cs" initialLine="61" containingFunctionPresentation="Method 'CompleteAction'">
+            <startOffsets>
+              <option value="2338" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2366" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="CurrentAction is GOAP.Actions.GoToDoor" language="C#" />
+          <url>file://$PROJECT_DIR$/Assets/GOAP/GAgent.cs</url>
+          <line>93</line>
+          <properties documentPath="G:\Clase\MUDV\IAEV\GOAP_base\Assets\GOAP\GAgent.cs" initialLine="93" containingFunctionPresentation="Method 'LateUpdate'">
+            <startOffsets>
+              <option value="3881" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3896" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

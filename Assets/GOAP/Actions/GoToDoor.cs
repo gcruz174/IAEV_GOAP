@@ -6,7 +6,9 @@ namespace GOAP.Actions
     {
         public override bool PrePerform()
         {
-            return !beliefs.HasState("isAtDoor") && !GWorld.GetWorld().HasState("brokenDoors");
+            var isAtDoor = beliefs.HasState("isAtDoor");
+            var brokenDoors = GWorld.GetWorld().HasState("brokenDoors");
+            return !isAtDoor && !brokenDoors;
         }
 
         public override bool PostPerform()

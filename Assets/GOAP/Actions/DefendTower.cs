@@ -16,8 +16,11 @@ namespace GOAP.Actions
 
         public override bool PostPerform()
         {
-            if (gagent.EnemyNear(shootRange) == null) return false;
-            var direction = gagent.EnemyNear(shootRange).transform.position - transform.position;
+            var enemy = gagent.EnemyNear(shootRange);
+            if (enemy == null) return false;
+            var direction = enemy.transform.position - transform.position;
+            var rotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 10);
             gagent.Fire(direction);
             return true;
         }

@@ -18,6 +18,8 @@ namespace GOAP.Actions
         {
             if (gagent.EnemyTarget == null) return false;
             var direction = gagent.EnemyTarget.transform.position - transform.position;
+            var rotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 10);
             gagent.Fire(direction);
             return true;
         }
